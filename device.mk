@@ -375,6 +375,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     usb \
     telephony
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
