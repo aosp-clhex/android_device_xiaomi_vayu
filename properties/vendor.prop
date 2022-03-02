@@ -189,6 +189,9 @@ sys.vendor.shutdown.waittime=500
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# USB
+vendor.usb.product_string=Poco X3 Pro
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
