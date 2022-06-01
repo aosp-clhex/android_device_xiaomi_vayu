@@ -1152,19 +1152,6 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|cf6b6d647f98448f234f5d115c
 # Thermal
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
-vendor/bin/mi_thermald
-vendor/bin/thermal-engine
-vendor/etc/init/init.mi_thermald.rc
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermald-devices.conf
 
 # Time services - from LA.UM.9.1.r1-12900-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
