@@ -187,6 +187,9 @@ ro.soc.model=SM8150
 # System Shutdown
 sys.vendor.shutdown.waittime=500
 
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
