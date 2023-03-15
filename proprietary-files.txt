@@ -693,6 +693,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
+# IMS - from renoir 22.5.11
+-system_ext/priv-app/ims/ims.apk|f0d834acbc77e7830459e0246f5073e1b9ba8657
+
 # IO prefetcher
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
