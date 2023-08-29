@@ -21,6 +21,18 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
 }
 
+namespace_imports = [
+		'device/xiaomi/vayu',
+		'hardware/qcom-caf/common/libqti-perfd-client',
+		'hardware/qcom-caf/sm8150',
+		'hardware/qcom-caf/wlan',
+		'hardware/xiaomi',
+		'vendor/qcom/opensource/commonsys-intf/display',
+		'vendor/qcom/opensource/commonsys/display',
+		'vendor/qcom/opensource/dataservices',
+		'vendor/qcom/opensource/display',
+]
+
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
