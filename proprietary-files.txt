@@ -1153,6 +1153,9 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|cf6b6d647f98448f234f5d115c
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
+# Thermal - from coral-user-13-TP1A.220905.004-8927612-release-keys
+vendor/bin/thermal-engine|d77881eaf15c84f6b8e9a68087aa360347ed922a
+
 # Time services - from LA.UM.9.1.r1-12900-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
