@@ -460,6 +460,9 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.pixel \
     thermal_symlinks
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+ 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
