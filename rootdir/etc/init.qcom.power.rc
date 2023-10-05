@@ -123,4 +123,17 @@ on init
     # report max frequency to unity tasks.
     write /proc/sys/kernel/sched_lib_name "UnityMain,com.miHoYo.,libunity.so,libfb.so"
     write /proc/sys/kernel/sched_lib_mask_force 255
-    
+
+# Thermal HAL
+on enable-thermal-hal
+    # Permission
+    chown root system /dev/thermal/cdev-by-name/battery/cur_state
+    chmod 660 /dev/thermal/cdev-by-name/battery/cur_state
+
+on charger
+    start vendor.thermal.symlinks
+    start vendor.thermal-engine
+    trigger enable-thermal-hal
+
+on property:vendor.thermal.engine=*
+    restart vendor.thermal-engine
