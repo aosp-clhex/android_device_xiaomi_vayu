@@ -599,6 +599,10 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
+# Protobuf
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+
 # Media
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/lib/libqcodec2.so
