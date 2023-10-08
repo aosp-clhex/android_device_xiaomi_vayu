@@ -124,6 +124,8 @@ on init
     write /proc/sys/kernel/sched_lib_name "UnityMain,com.miHoYo.,libunity.so,libfb.so"
     write /proc/sys/kernel/sched_lib_mask_force 255
 
+    restart vendor.thermal-hal
+
 # Thermal HAL
 on enable-thermal-hal
     # Permission
