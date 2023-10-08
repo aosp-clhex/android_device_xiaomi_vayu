@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common AOSP configurations
 $(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/gsm.mk)
 
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
