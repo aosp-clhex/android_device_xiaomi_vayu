@@ -518,12 +518,6 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea2
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|f2e143c684cd9f31372df63b44c163744b2ca0b7
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
 
-# Gatekeeper - from LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|ddeff8aefaf48063160b3e35296e3c0eeab50722
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|eef0799fc91ea11751db568d35a509c85ae6160a
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|63c3bf47418490c3172c80f7f0c74c818728fda3
-
 # Graphics (Adreno) - from Moto G84 V@0530.50
 vendor/gpu/kbc/sequence_manifest.bin|cc050a8058904871b3cfabec74521d42f0a61a1f
 vendor/gpu/kbc/unified_kbcs_32.bin|503228f87adc71131aa8134659b00dffe073e973
@@ -666,20 +660,6 @@ vendor/firmware/ipa_uc.mdt
 
 # IRQ balance - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
-
-# Keymaster - from LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|a8e1f0ccafd896a9101ecd2b2af21a9f7d419d62
-vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|1b86cba7e7c616f9647fdd83f3d2130bdf03705f
-vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|f6907552961ba772c1ad5b493913a60d65abedb4
-vendor/lib/libkeymasterdeviceutils.so|dcc69d1ee6f9adeb93d5d061710520a47791487c
-vendor/lib/libkeymasterprovision.so|884e421a70af64a96296b99cce295d8e9864ad8c
-vendor/lib/libkeymasterutils.so|3af79349f483b3c36e0a1eda4cf0683d6803b351
-vendor/lib/libqtikeymaster4.so|e9e1b68f6e9c8d1360abd230860cf4018b1e6e62
-vendor/lib64/libkeymasterdeviceutils.so|d959ee7b263379e5925af383bddb42b8bb62ae52
-vendor/lib64/libkeymasterprovision.so|8512428e1066eb740d9fd5db2e0f8ac14c91900c
-vendor/lib64/libkeymasterutils.so|50bd805e791cd7b4eb70e455697cab755ccfdd96
-vendor/lib64/libqcbor.so|fb1b08c03eaeed01fc01b5f5951a7ef7b91903fc
-vendor/lib64/libqtikeymaster4.so|081f64539f1a8c0c1a6ca8a37aea7fbda644a3bf
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.msmnile.so
