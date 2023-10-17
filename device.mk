@@ -397,7 +397,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     gps \
     alarm \
     keymaster \
-    perf
+    perf \
+    usb
 
 # Seccomp
 PRODUCT_COPY_FILES += \
