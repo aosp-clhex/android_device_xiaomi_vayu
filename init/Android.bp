@@ -23,3 +23,22 @@ cc_library_static {
         "system/core/init"
     ]
 }
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.vayu.post_boot.sh",
+    src: "init.vayu.post_boot.sh",
+    vendor: true,
+}
