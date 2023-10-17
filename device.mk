@@ -395,7 +395,8 @@ TARGET_BOARD_PLATFORM := msmnile
 TARGET_COMMON_QTI_COMPONENTS := \
     gps \
     alarm \
-    keymaster
+    keymaster \
+    perf
 
 # Seccomp
 PRODUCT_COPY_FILES += \
