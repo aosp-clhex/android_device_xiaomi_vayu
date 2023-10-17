@@ -173,6 +173,9 @@ on boot
     setprop vendor.usb.qdss.inst.name "qdss"
     setprop vendor.usb.controller a600000.dwc3
 
+    chmod 0660 /sys/touchpanel/double_tap
+    chown system system /sys/touchpanel/double_tap
+
     # Fingerprint sensor configuration
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/irq
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/irq_enable
