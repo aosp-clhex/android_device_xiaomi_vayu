@@ -393,6 +393,7 @@ PRODUCT_COPY_FILES += \
 TARGET_BOARD_PLATFORM := msmnile
 
 TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
     gps \
     alarm \
     keymaster \
