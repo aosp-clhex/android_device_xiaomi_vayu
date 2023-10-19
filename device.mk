@@ -148,30 +148,9 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
-# Framework detect
-PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor \
-    libvndfwk_detect_jni.qti \
-    libvndfwk_detect_jni.qti.vendor
-
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.base@1.0.vendor \
-    libhwbinder.vendor
-
-PRODUCT_PACKAGES += \
-    android.hidl.memory.block@1.0 \
-    android.hidl.memory@1.0-impl
-
-# HotwordEnrollement
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # Init scripts
 PRODUCT_PACKAGES += \
@@ -353,15 +332,6 @@ TARGET_NFC_SKU := vayu
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
-
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
-    frameworks/native/data/etc/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml \
-    frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
 
 # Verified boot
 PRODUCT_COPY_FILES += \

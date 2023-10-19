@@ -54,15 +54,6 @@ TARGET_USES_ION := true
 TARGET_SCREEN_DENSITY := 410 ## smallest width 421dp
 TARGET_DISABLED_UBWC := true
 
-# Camera
-TARGET_USES_QTI_CAMERA_DEVICE := true
-
-# Filesystem
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
-
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # FM
 BOARD_HAVE_QCOM_FM := true
 
@@ -78,19 +69,16 @@ BOARD_KERNEL_CMDLINE += swiotlb=2048 msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += loop.max_part=7 androidboot.usbcontroller=a600000.dwc3
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE += kpti=off
-BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := vayu_defconfig
-  TARGET_KERNEL_CLANG_COMPILE := true
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
-  TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
-endif
+TARGET_KERNEL_CONFIG := vayu_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
+TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Partitions
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
