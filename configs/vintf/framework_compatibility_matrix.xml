@@ -62,6 +62,16 @@
             <instance>slot2</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.bluetooth_audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IBluetoothAudioProvidersFactory/default</fqname>
+    </hal>
+       <hal format="hidl">
+        <name>vendor.qti.hardware.btconfigstore</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IBTConfigStore/default</fqname>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.radio.config</name>
         <version>1.0-1</version>
