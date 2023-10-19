@@ -67,6 +67,7 @@ persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
+ro.bluetooth.library_name=libbluetooth_qti.so
 vendor.qcom.bluetooth.soc=cherokee
 
 # Crypto
