@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.vayu.post_boot.sh \
     init.target.rc \
+    init.qti.dcvs.sh \
     fstab.qcom
 
 PRODUCT_COPY_FILES += \
