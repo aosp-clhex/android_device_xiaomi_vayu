@@ -333,6 +333,7 @@ TARGET_BOARD_PLATFORM := msmnile
 
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
+    av \
     gps \
     alarm \
     telephony \
