@@ -131,9 +131,6 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-TARGET_USES_INTERACTION_BOOST := true
-TARGET_POWERHAL_BOOST_EXT := $(DEVICE_PATH)/power/boost-ext.cpp
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/mode-ext.cpp
 
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
@@ -168,7 +165,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
-include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
@@ -193,6 +189,9 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/framework_compatibility_matrix.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
+     vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml \
+     vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/configs/vintf/manifest-qva.xml
 ODM_MANIFEST_SKUS += vayu
