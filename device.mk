@@ -374,7 +374,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     adreno \
     usb \
-    Vibrator \
+    vibrator \
+    gps \
     alarm \
     telephony
 
