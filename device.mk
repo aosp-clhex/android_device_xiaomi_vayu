@@ -374,6 +374,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     usb \
     Vibrator \
+    alarm \
     telephony
 
 # Remove unwanted packages
