@@ -372,6 +372,7 @@ TARGET_BOARD_PLATFORM := msmnile
 TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     bt \
+    adreno \
     usb \
     Vibrator \
     alarm \
