@@ -527,7 +527,6 @@ vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # FM - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 system_ext/lib/fm_helium.so|fd5702ab5558dbf4d79e4bf3ab0b8c446cecef88
