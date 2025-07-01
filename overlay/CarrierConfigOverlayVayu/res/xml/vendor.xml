@@ -58,7 +58,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
-        <string name="5g_icon_configuration_string">connected_mmwave:5GUWB,connected:5g,not_restricted:None,restricted:None</string>
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
     </carrier_config>
@@ -1377,7 +1376,6 @@
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1423,7 +1421,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1484,7 +1481,6 @@
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1538,7 +1534,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="support_swap_after_merge_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1579,7 +1574,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_swap_after_merge_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="true" />
@@ -1608,7 +1602,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1665,7 +1658,6 @@
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1732,7 +1724,6 @@
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1773,7 +1764,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -1827,7 +1817,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="support_swap_after_merge_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1867,7 +1856,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
@@ -1923,7 +1911,6 @@
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="vilte_data_is_metered_bool" value="false" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
@@ -1966,7 +1953,6 @@
         <boolean name="vilte_data_is_metered_bool" value="false" />
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="config_disable_clir_over_ut" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
         <boolean name="allow_hold_video_call_bool" value="false" />
@@ -2600,12 +2586,10 @@
             <item value="dun" />
         </string-array>
         <string name="default_vm_number_string">41919</string>
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="222" mnc="10">
         <int name="call_barring_default_service_class_int" value="0" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="234" mnc="15">
@@ -2656,14 +2640,7 @@
         <boolean name="nt_carrier_enhance_nr_icon_bool" value="true" />
         <boolean name="nt_carrier_nsa_cell_cache_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="460" mnc="05">
-        <boolean name="hide_enabled_5g_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="460" mnc="12">
-        <boolean name="hide_enabled_5g_bool" value="true" />
-    </carrier_config>
     <carrier_config mcc="460" mnc="15">
-        <boolean name="hide_enabled_5g_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="2">
             <item value="1" />
             <item value="2" />
@@ -2671,7 +2648,6 @@
         <boolean name="vonr_enabled_bool" value="true" />
         <boolean name="vonr_on_by_default_bool" value="true" />
         <boolean name="nt_carrier_default_sa_enabled_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <string name="carrier_name_string">CBN</string>
     </carrier_config>
     <carrier_config mcc="525" mnc="07">
@@ -2997,7 +2973,6 @@
         <int name="wfc_spn_format_idx_int" value="0" />
         <int name="smsToMmsTextThreshold" value="-1" />
         <string name="default_vm_number_string">+31624001233</string>
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="editable_voicemail_number_setting_bool" value="false" />
     </carrier_config>
@@ -3390,7 +3365,6 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
     </carrier_config>
     <carrier_config cid="31" name="Singtel">
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
         <boolean name="nt_carrier_disable_sa_for_wfc_bool" value="true" />
         <boolean name="call_barring_visibility_bool" value="true" />
         <int name="call_barring_default_service_class_int" value="0" />
@@ -3494,7 +3468,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3506,7 +3479,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3518,7 +3490,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3530,7 +3501,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3542,7 +3512,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3644,7 +3613,6 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="show_4glte_for_lte_data_icon_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config cid="1344" name="Drei">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -3684,7 +3652,6 @@
     <carrier_config cid="1435" name="China Mobile">
         <boolean name="nt_carrier_enhance_nr_icon_bool" value="true" />
         <boolean name="nt_carrier_nsa_cell_cache_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="2">
             <item value="1" />
             <item value="2" />
@@ -3694,7 +3661,6 @@
     <carrier_config cid="1436" name="China Unicom">
         <boolean name="nt_carrier_enhance_nr_icon_bool" value="true" />
         <boolean name="nt_carrier_nsa_cell_cache_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="2">
             <item value="1" />
             <item value="2" />
@@ -3709,7 +3675,6 @@
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="hide_carrier_name_extra_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1452" name="Vodafone">
@@ -3750,7 +3715,6 @@
         <int name="maxMessageSize" value="614400" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1454" name="o2">
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
@@ -3758,7 +3722,6 @@
         <int name="maxMessageSize" value="614400" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1456" name="o2">
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
@@ -3766,7 +3729,6 @@
         <int name="maxMessageSize" value="614400" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1475" name="Elisa">
         <boolean name="hide_carrier_name_extra_bool" value="true" />
@@ -3780,10 +3742,8 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <boolean name="hide_smart_5g_bool" value="true" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3814,7 +3774,6 @@
         <boolean name="vonr_enabled_bool" value="false" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="nt_hide_volte_icon_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1505" name="Three Mobile">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
@@ -3832,7 +3791,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
@@ -3940,8 +3898,6 @@
         <int name="wfc_spn_format_idx_int" value="11" />
         <boolean name="wfc_spn_use_root_locale" value="true" />
         <boolean name="wfc_carrier_name_override_by_pnn_bool" value="true" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
     </carrier_config>
     <carrier_config cid="1668" name="NOS">
@@ -3983,7 +3939,6 @@
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
     </carrier_config>
     <carrier_config cid="1695" name="Telenor Sverige AB">
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="vonr_enabled_bool" value="false" />
         <boolean name="vonr_setting_visibility_bool" value="false" />
         <string name="nt_carrier_ims_user_agent_string">[B]_[MN]_[DI]</string>
@@ -4035,13 +3990,11 @@
     <carrier_config cid="1736" name="Vodafone TR">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="nt_show_4_5g_for_lte_data_icon_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="hide_preferred_network_type_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1737" name="Turk Telekom">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="nt_show_4_5g_for_lte_data_icon_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="false" />
         <boolean name="hide_preferred_network_type_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1779" name="Cricket Wireless">
@@ -4049,7 +4002,6 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="show_4glte_for_lte_data_icon_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config cid="1839" name="Verizon Wireless">
         <boolean name="carrier_vt_available_bool" value="false" />
@@ -4164,7 +4116,6 @@
         <boolean name="nt_carrier_change_to_auto_mode_bool" value="true" />
         <long name="nt_carrier_change_to_auto_mode_delay_timer_long" value="30000" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
         <boolean name="nt_carrier_default_sa_enabled_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="nt_hide_3G_mode_bool" value="true" />
@@ -4215,7 +4166,6 @@
         <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="nt_hide_volte_icon_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2094" name="telering">
         <boolean name="show_iccid_in_sim_status_bool" value="true" />
@@ -4242,7 +4192,6 @@
         <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="nt_hide_volte_icon_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2119" name="FirstNet">
         <boolean name="carrier_vt_available_bool" value="false" />
@@ -4259,7 +4208,6 @@
     <carrier_config cid="2237" name="China Telecom">
         <boolean name="nt_carrier_enhance_nr_icon_bool" value="true" />
         <boolean name="nt_carrier_nsa_cell_cache_bool" value="true" />
-        <boolean name="hide_enabled_5g_bool" value="true" />
         <int-array name="carrier_nr_availabilities_int_array" num="2">
             <item value="1" />
             <item value="2" />
@@ -4294,7 +4242,6 @@
         <int name="maxMessageSize" value="614400" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2361" name="o2">
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
@@ -4302,7 +4249,6 @@
         <int name="maxMessageSize" value="614400" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="false" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2364" name="Vodafone">
         <boolean name="enableMMSDeliveryReports" value="true" />
@@ -4391,7 +4337,6 @@
         <int name="wfc_spn_format_idx_int" value="0" />
         <int name="smsToMmsTextThreshold" value="-1" />
         <string name="default_vm_number_string">+31624001233</string>
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="editable_voicemail_number_setting_bool" value="false" />
     </carrier_config>
@@ -4609,14 +4554,12 @@
         <boolean name="vonr_enabled_bool" value="false" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="nt_hide_volte_icon_bool" value="true" />
-        <boolean name="nt_hide_5g_standalone_bool" value="true" />
     </carrier_config>
     <carrier_config cid="10021" name="AT&amp;T 5G">
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="show_4glte_for_lte_data_icon_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config cid="10027" name="LINEMO">
         <boolean name="carrier_vt_available_bool" value="false" />
@@ -4626,14 +4569,12 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="show_4glte_for_lte_data_icon_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config cid="10029" name="Cricket 5G">
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="show_4glte_for_lte_data_icon_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
-        <boolean name="nt_carrier_default_smart_5g_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="240" mnc="06">
         <boolean name="carrier_vt_available_bool" value="false" />
