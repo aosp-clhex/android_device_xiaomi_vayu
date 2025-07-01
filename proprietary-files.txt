@@ -583,7 +583,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so|81142c88b15688a671bd372f013dfb2e77d1998d
 vendor/lib64/vendor.qti.gnss@3.0.so|1c0b41eddcc4789e1ea842be02d511afad123a8e
 vendor/lib64/vendor.qti.gnss@4.0-service.so|d20a0fd214eb4f7aa2d4b2c2cd14ea2b120a49f5
 vendor/lib64/vendor.qti.gnss@4.0.so|e38ae43982dc62bf48193a6c3eb2ae385adb37aa
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
 # Graphics - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib/egl/eglSubDriverAndroid.so|dd4d0a030c41dd2d02e20060272db86a54b7a6a0
