@@ -273,7 +273,9 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     perf \
     usb \
-    vibrator
+    vibrator \
+    keymaster \
+    alarm
 
 # Power
 PRODUCT_PACKAGES += \
