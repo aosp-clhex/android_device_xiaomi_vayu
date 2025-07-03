@@ -273,6 +273,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     perf \
     usb \
+    telephony \
     vibrator \
     keymaster \
     alarm
