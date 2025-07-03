@@ -276,6 +276,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     vibrator \
     keymaster \
+    charging \
     alarm
 
 # Power
