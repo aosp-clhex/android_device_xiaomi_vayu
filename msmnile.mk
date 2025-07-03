@@ -268,6 +268,10 @@ PRODUCT_PACKAGES += \
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
 
+# Components
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
