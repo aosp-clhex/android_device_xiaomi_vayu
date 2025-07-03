@@ -67,9 +67,6 @@ ifeq ($(TARGET_HAS_UDFPS),true)
 TARGET_USES_FOD_ZPOS := true
 endif
 
-# Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
-
 # Fingerprint
 ifeq ($(TARGET_HAS_UDFPS),true)
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
